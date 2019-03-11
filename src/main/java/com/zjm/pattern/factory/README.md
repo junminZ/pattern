@@ -1,4 +1,4 @@
-# 对常见的设计模式的学习记录
+# 工厂模式
 ## 简单工厂
 `简单工厂模式`（Simple Factory Pattern）是指由一个工厂对象决定创建出哪一种产品类的实例，但它不属于 GOF，23 种设计模式式（参考资料：
 http://en.wikipedia.org/wiki/Design_Patterns#Patterns_by_Type）。
