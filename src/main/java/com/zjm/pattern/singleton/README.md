@@ -37,7 +37,7 @@ public class HungrySing {
 ```
 <!-- more -->
 ## 懒汉式单例
-`懒汉式单例`的特点是：`被外部类调用的时候内部类才会加载`，下面看懒汉式单例的简单实现
+`懒汉式单例`的特点是：`被外部类调用的才会加载`，下面看懒汉式单例的简单实现
 ```java
 public class LazySimpleSing {
     private LazySimpleSing() {}
