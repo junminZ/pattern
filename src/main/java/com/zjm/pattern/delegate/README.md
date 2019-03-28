@@ -1,10 +1,10 @@
 # Spring中的委派模式
 `AbstractApplicationContext`的`obtainFreshBeanFactory()`方法就是通过委派模式调用了子类`AbstractRefreshableApplicationContext
 `的`refreshBeanFactory()`方法
-[](https://i.loli.net/2019/03/28/5c9c760e69095.png)
+![](https://i.loli.net/2019/03/28/5c9c760e69095.png)
 在`refreshBeanFactory()`方法中又通过委派模式调用了`loadBeanDefinitions`方法
-[](https://i.loli.net/2019/03/28/5c9c76d85979d.png)
-[](https://i.loli.net/2019/03/28/5c9c7745eba19.png)
+![](https://i.loli.net/2019/03/28/5c9c76d85979d.png)
+![](https://i.loli.net/2019/03/28/5c9c7745eba19.png)
 
 委派模式在`DispatcherServlet`中的应用：
 用户发送请求——>DispatcherServlet，前端控制器收到请求后自己不进行处理，而是委托给其他的解析器进行处理，作为统一访问点，进行全局的流程控制。
