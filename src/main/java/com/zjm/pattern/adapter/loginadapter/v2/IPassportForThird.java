@@ -1,6 +1,7 @@
 package com.zjm.pattern.adapter.loginadapter.v2;
 
-import com.gupaoedu.vip.pattern.adapter.loginadapter.ResultMsg;
+
+import com.zjm.pattern.adapter.loginadapter.ResultMsg;
 
 /**
  * 只扩展
